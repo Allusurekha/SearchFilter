@@ -21,7 +21,7 @@ class Users extends Component {
 
   render() {
     const { term } = this.state;
-    const { users = [] } = this.props;
+    const { users } = this.props;
     return (
       <div>
         <form>

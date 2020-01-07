@@ -2,11 +2,8 @@ import React from "react";
 import ReactDOM from "react-dom";
 import "./styles.css";
 import { Provider } from "react-redux";
-import { createStore } from "redux";
-import reducer from "./taskredux/users/reducer";
 import UsersContainer from "./containers/UsersContainer";
-
-const store = createStore(reducer);
+import store from "./redux/store";
 
 function App() {
   return (
